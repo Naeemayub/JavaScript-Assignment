@@ -1,0 +1,18 @@
+var value= multiply(4,3,6);
+
+console.log("value", value);   // ```The result is ?```    36
+
+function add(a, b){
+	var z= a+b;
+	return z;
+};
+
+function multiply(a, b, c){
+	var z= a* add(b, c);
+	return z;
+};
+
+console.log("course", course);   // ```The result is ?```      Undefined
+console.log("z", z);   // ```The result is ?```		       error becuase z is local variable inside the function,.
+	
+var course="cloud native computing";
